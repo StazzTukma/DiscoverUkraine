@@ -1,8 +1,8 @@
-# Discover Ukraine
+# Explore Ukraine
 
 ### [Some text about project] 
 
-![Image]()
+![Image](https://ibb.co/yRm28Y4)
 
 # Instruction to launch:
 
