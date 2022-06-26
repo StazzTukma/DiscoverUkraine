@@ -1,7 +1,7 @@
 import {
   AppBar,
   Toolbar,
-  Typography,
+  Box,
   makeStyles,
   Button,
   IconButton,
@@ -12,40 +12,35 @@ import {
 import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
 import { Link as RouterLink } from "react-router-dom";
+import Logo from "./images/logo.png"
 
 const headersData = [
   {
-    label: "Listings",
-    href: "/listings",
+    label: "Home",
+    href: "/",
   },
   {
-    label: "Mentors",
-    href: "/mentors",
+    label: "About Us",
+    href: "/aboutus",
   },
   {
     label: "My Account",
     href: "/account",
   },
   {
-    label: "Log Out",
-    href: "/logout",
+    label: "Log In",
+    href: "/login",
   },
 ];
 
 const useStyles = makeStyles(() => ({
   header: {
-    backgroundColor: "#400CCC",
+    backgroundColor: "#616161",
     paddingRight: "79px",
     paddingLeft: "118px",
     "@media (max-width: 900px)": {
       paddingLeft: 0,
     },
-  },
-  logo: {
-    fontFamily: "Work Sans, sans-serif",
-    fontWeight: 600,
-    color: "#FFFEFE",
-    textAlign: "left",
   },
   menuButton: {
     fontFamily: "Open Sans, sans-serif",
@@ -151,9 +146,14 @@ export default function Header() {
   };
 
   const femmecubatorLogo = (
-    <Typography variant="h6" component="h1" className={logo}>
-      Femmecubator
-    </Typography>
+    <Box
+            component="img"
+            sx={{
+            height: 10,
+            }}
+            alt="Your logo."
+            src={Logo}
+        />
   );
 
   const getMenuButtons = () => {
