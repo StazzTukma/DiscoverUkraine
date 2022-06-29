@@ -12,7 +12,7 @@
 - `npm start`
 
 ## Server
-- `cd .\client\`
+- `cd .\server\`
 - `npm install`
 - `npm start`
  
