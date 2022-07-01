@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import StartPage from "./pages/StartPage.js";
+import App from "./App.js";
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <StartPage />
+      <App />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
