@@ -6,6 +6,7 @@
     flex-direction: column;
     gap: 20px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-bottom: 404px;
   }
   
   input[type="text"],

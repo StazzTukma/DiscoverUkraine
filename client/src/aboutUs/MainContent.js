@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
       content: "",
       clear: 'both',
       display: 'table',
-    }
+    },
   },
 
   img: {
@@ -39,6 +39,7 @@ const useStyles = makeStyles(theme => ({
 
   fullWidth: {
     width: '100%',
+    marginBottom: 204,
   },
 
   par: {
@@ -110,6 +111,8 @@ const useStyles = makeStyles(theme => ({
   team: {
 
   },
+
+
   
 }));
 
