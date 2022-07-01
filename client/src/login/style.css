@@ -9,14 +9,14 @@
     margin-bottom: 404px;
   }
   
-  input[type="text"],
-  input[type="password"] {
+  .input-container input[type="text"],
+  .input-container input[type="password"] {
     height: px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     height: 30px;
   }
   
-  input[type="submit"] {
+  .button-container input[type="submit"] {
     margin-top: 10px;
     cursor: pointer;
     font-size: 15px;
@@ -26,7 +26,7 @@
     padding: 10px 20px;
   }
   
-  input[type="submit"]:hover {
+  .button-container input[type="submit"]:hover {
     background: lightgray;
   }
   
