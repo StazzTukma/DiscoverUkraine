@@ -1,6 +1,4 @@
-import { makeStyles } from '@material-ui/core/styles';
-import { FormHelperText, Typography } from '@material-ui/core';
-import React, { Component }  from 'react';
+import React  from 'react';
 import { useState } from "react";
 import './style.css';
 import Map from "../images/map.png"
