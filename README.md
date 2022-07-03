@@ -2,7 +2,7 @@
 
 ### [Some text about project] 
 
-![Image](https://ibb.co/yRm28Y4)
+![Image](https://www.linkpicture.com/q/logo_87.png)
 
 # Instruction to launch:
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 10px 10px;
+padding: 0px 0px;
 background: grey;
 position: relative;
 bottom: 0;
@@ -24,7 +24,6 @@ export const Container = styled.div`
 	justify-content: center;
 	max-width: 900px;
 	margin: 0 auto;
-	/* background: red; */
 `
 
 export const Column = styled.div`

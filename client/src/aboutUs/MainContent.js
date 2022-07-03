@@ -88,7 +88,7 @@ const useStyles = makeStyles(theme => ({
   },
 
   card: {
-    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
+    boxShadow: '0 8px 8px 0 rgba(0, 0, 0, 0.2)',
   },
 
   name: {
