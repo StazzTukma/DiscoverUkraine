@@ -1,8 +1,8 @@
-const reducer = (cards = [], action) => {
+export default (cards = [], action) => {
     switch(action.type) {
-        case 'CREATE':
-            return cards;
+        case 'FETCH_ALL':
+            return action.payload;
         default:
             return cards;
-    }   
+    }
 }

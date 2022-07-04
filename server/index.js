@@ -7,11 +7,11 @@ import cardsRoutes from './routes/cards.js';
 
 const app = express();
 
-app.use('/cards', cardsRoutes);
-
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
+
+app.use('/cards', cardsRoutes);
 
 const CONNECTION_URL = 'mongodb+srv://StazzTukma:Nngs1927@atlascluster.vyksd.mongodb.net/?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;

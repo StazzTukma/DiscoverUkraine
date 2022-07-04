@@ -3,6 +3,7 @@ import { useState } from "react";
 import './style.css';
 import Map from "../images/map.png"
 import { Box} from "@material-ui/core";
+import Card from './Card.js';
 
 const mapGen = (
     <Box
@@ -65,6 +66,7 @@ const mapGen = (
                     {mapGen}
                 </div>
                 <div className="menuColumn">
+                    <Card/>
                     <p className="titleName"><b>{selectedCity.name}</b></p>
                     <img src={selectedCity.pictureURL} className="image"></img>
                     <p className="description">{selectedCity.description}</p>
