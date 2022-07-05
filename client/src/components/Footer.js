@@ -11,6 +11,9 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link> 
+	</head>
 	<Container>
 		<Row>
 		<Column>
@@ -29,28 +32,28 @@ return (
 		<Column>
 			<Heading>Social Media</Heading>
 			<FooterLink href="#">
-			<i className="fab fa-facebook-f">
+			<i className="fa fa-facebook">
 				<span style={{ marginLeft: "10px" }}>
 				Facebook
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
-			<i className="fab fa-instagram">
+			<i className="fa fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
 				Instagram
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
-			<i className="fab fa-twitter">
+			<i className="fa fa-twitter">
 				<span style={{ marginLeft: "10px" }}>
 				Twitter
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
-			<i className="fab fa-youtube">
+			<i className="fa fa-youtube">
 				<span style={{ marginLeft: "10px" }}>
 				Youtube
 				</span>
