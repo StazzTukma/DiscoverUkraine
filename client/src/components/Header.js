@@ -30,7 +30,7 @@ const headersData = [
   {
     label: "Log In",
     href: "/login",
-  },
+  }
 ];
 
 const useStyles = makeStyles(() => ({
