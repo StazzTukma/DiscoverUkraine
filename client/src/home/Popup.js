@@ -11,8 +11,8 @@ return (
         <img src={this.props.city1img} className='first'></img>
         <img src={this.props.city2img}></img>
     </div>
-    <input type="text" id="" disabled placeholder="None" className="path" value={this.props.path1value}></input>
-    <input type="text" id="" disabled placeholder="None" className="path" value={this.props.path2value}></input>
+    <a href={this.props.path1value} className="path">Recomended way</a>
+    <a href={this.props.path1value} className="path">Recomended way</a>
     <button type='button' onClick={this.props.closePopup}>Close Infoblock</button>  
 </div>  
 </div>  

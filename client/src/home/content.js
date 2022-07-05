@@ -7,6 +7,7 @@ import { Box} from "@material-ui/core";
 import { cities, search} from '../LocalDB';
 import arrow from '../images/arrow.png'
 import { generatePath } from 'react-router-dom';
+import shortestDuration from './try';
 
 const mapGen = (
     <Box
@@ -220,6 +221,7 @@ const mapGen = (
                   closePopup={togglePopupClose}
                   city1img={search(city1, cities).imgURL}
                   city2img={search(city2, cities).imgURL}
+                  path1value={shortestDuration(search(city1, cities).name, search(city2, cities).name)}
                   />  
                 : null  
                     }  
