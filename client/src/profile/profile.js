@@ -56,7 +56,8 @@ const Card = () => {
         <h1> {noUser()} </h1>
         <h2>{user?.result.name}</h2>
         <h3>Your email: {user?.result.email}</h3>
-        <h4>Your token: {user?.token}</h4>
+        <h4>Your token:</h4> 
+        <h6>{user?.token}</h6> 
         <p>
             <Button variant="contained" color="secondary" onClick={logout}>Logout</Button>
         </p>

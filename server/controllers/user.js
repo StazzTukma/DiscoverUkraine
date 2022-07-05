@@ -9,7 +9,7 @@ export const signin = async(req, res) => {
     try {
         const existingUser = await UserModel.findOne( {email});
 
-        if(!existingUser) return res.status(404).json({message: "User doesn't exist."})
+        if(!existingUser) return res.statusMessage("lol");
 
         const isPasswordCorrect = await bcrypt.compare(password, existingUser.password);
 
@@ -32,7 +32,7 @@ try {
 
     if(existingUser) return res.status(400).json({ message: "User already exists!"});
 
-    if(password.length < 8 || password.length > 15) return res.status(400).json({ message: "Passwords should contian 8 to 15 symbols"});
+    if(password.length < 8 || password.length > 15) return res.status(400).json({ message: "Passwords should contiane 8 to 15 symbols"});
 
     if(password !== confirmPassword) return res.status(400).json({ message: "Passwords don't match"});
 
