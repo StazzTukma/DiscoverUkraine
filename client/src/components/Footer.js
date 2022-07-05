@@ -25,8 +25,8 @@ return (
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
-			<FooterLink href="#">GitHub</FooterLink>
-			<FooterLink href="#">Telegram</FooterLink>
+			<FooterLink href="https://github.com/StazzTukma/ExploreUkraine">GitHub</FooterLink>
+			<FooterLink href="https://t.me/stazzt">Telegram</FooterLink>
 			
 		</Column>
 		<Column>

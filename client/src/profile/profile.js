@@ -5,6 +5,8 @@ import { useDispatch } from 'react-redux';
 import { useNavigate, useLocation } from 'react-router-dom';
 import * as actionType from '../constants/actionTypes';
 import { Button } from '@material-ui/core';
+import profilePicture from '../images/profilePicture.png'
+import profilePictureLogged from '../images/profilePictureLogged.png'
 
 
 const Card = () => {
@@ -30,6 +32,19 @@ const Card = () => {
         }
         setUser(JSON.parse(localStorage.getItem('profile')));
       }, [location]);
+
+    const noUser = () => {
+        if(!user){
+            return "You should log in!";
+       }
+    }  
+    const noUserPicture = () => {
+      if(!user){
+          return profilePicture;
+     }else{
+          return profilePictureLogged;
+     }
+  } 
   return (
     <div>
       <link
@@ -37,22 +52,11 @@ const Card = () => {
         href=""
       />
       <div className="card">
-        <img src="img.jpg" alt="John" style={{ width: "100%" }} />
-        <h1>{user?.result.name}</h1>
-        <p className="title">CEO &amp; Founder, Example</p>
-        <p>Harvard University</p>
-        <a href="#">
-          <i className="fa fa-dribbble" />
-        </a>
-        <a href="#">
-          <i className="fa fa-twitter" />
-        </a>
-        <a href="#">
-          <i className="fa fa-linkedin" />
-        </a>
-        <a href="#">
-          <i className="fa fa-facebook" />
-        </a>
+        <img src={noUserPicture()} alt="" style={{ width: "40%" }} />
+        <h1> {noUser()} </h1>
+        <h2>{user?.result.name}</h2>
+        <h3>Your email: {user?.result.email}</h3>
+        <h4>Your token: {user?.token}</h4>
         <p>
             <Button variant="contained" color="secondary" onClick={logout}>Logout</Button>
         </p>
