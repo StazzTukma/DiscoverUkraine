@@ -110,8 +110,9 @@ const mapGen = (
           if(windowSize.innerWidth < 321){
             style = {
               marginTop: 160,
+              marginLeft: windowSize.innerWidth*0.12,
               top: top/2-10,
-              left: left*1.6+'%',
+              left: left*1.6*0.8+'%',
               height: 35,
               width: 35,
               borderRadius: 30,
@@ -123,8 +124,9 @@ const mapGen = (
             if(windowSize.innerWidth > 320 && windowSize.innerWidth < 376){
               style = {
                 marginTop: 160,
+                marginLeft: windowSize.innerWidth*0.1,
                 top: top/2-10,
-                left: left*1.4+'%',
+                left: left*1.4*0.8+'%',
                 height: 35,
                 width: 35,
                 borderRadius: 30,
@@ -138,7 +140,7 @@ const mapGen = (
               marginTop: 163.5,
               top: top,
               left: left*0.8+'%',
-              marginLeft: 100,
+              marginLeft: windowSize.innerWidth*0.075,
               height: 35,
               width: 35,
               borderRadius: 30,
@@ -150,8 +152,9 @@ const mapGen = (
           if(windowSize.innerWidth == 768){
             style = {
               marginTop: 160,
+              marginLeft: windowSize.innerWidth*0.09,
               top: top/2-10,
-              left: left*1.35+'%',
+              left: left*1.35*0.8+'%',
               height: 35,
               width: 35,
               borderRadius: 30,
