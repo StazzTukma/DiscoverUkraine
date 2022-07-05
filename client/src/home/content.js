@@ -12,7 +12,7 @@ const mapGen = (
     <Box
             component="img"
             height='100%'
-            width='100%'
+            width='80%'
             alt="Map"
             src={Map}
         />
@@ -137,7 +137,8 @@ const mapGen = (
             style = {
               marginTop: 163.5,
               top: top,
-              left: left+'%',
+              left: left*0.8+'%',
+              marginLeft: 100,
               height: 35,
               width: 35,
               borderRadius: 30,
