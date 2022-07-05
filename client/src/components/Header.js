@@ -35,7 +35,7 @@ const headersData = [
 
 const useStyles = makeStyles(() => ({
   header: {
-    backgroundColor: "#616161",
+    backgroundColor: "rgba(0, 0, 0, 0.7)",
     paddingRight: "79px",
     paddingLeft: "118px",
     "@media (max-width: 900px)": {
@@ -51,14 +51,19 @@ const useStyles = makeStyles(() => ({
   toolbar: {
     display: "flex",
     justifyContent: "space-between",
+    
   },
   drawerContainer: {
     padding: "20px 30px",
   },
+  paper: {
+    color: 'white',
+    backgroundColor: "rgba(0, 0, 0, 0.7)",
+  }
 }));
 
 export default function Header() {
-  const { header, menuButton, toolbar, drawerContainer } = useStyles();
+  const classes = useStyles();
 
   const [state, setState] = useState({
     mobileView: false,
@@ -85,7 +90,7 @@ export default function Header() {
 
   const displayDesktop = () => {
     return (
-      <Toolbar className={toolbar}>
+      <Toolbar className={classes.toolbar}>
         {femmecubatorLogo}
         <div>{getMenuButtons()}</div>
       </Toolbar>
@@ -113,13 +118,19 @@ export default function Header() {
         </IconButton>
 
         <Drawer
+        classes={{ paper: classes.paper }}
+        PaperProps={{
+          sx: {
+            backgroundColor: "rgba(0, 0, 0, 0.7)"
+          }
+        }}
           {...{
             anchor: "left",
             open: drawerOpen,
             onClose: handleDrawerClose,
           }}
         >
-          <div className={drawerContainer}>{getDrawerChoices()}</div>
+          <div className={classes.drawerContainer}>{getDrawerChoices()}</div>
         </Drawer>
 
         <div>{femmecubatorLogo}</div>
@@ -165,7 +176,7 @@ export default function Header() {
             color: "inherit",
             to: href,
             component: RouterLink,
-            className: menuButton,
+            className: classes.menuButton,
           }}
         >
           {label}
@@ -176,7 +187,7 @@ export default function Header() {
 
   return (
     <header>
-      <AppBar className={header}>
+      <AppBar className={classes.header}>
         {mobileView ? displayMobile() : displayDesktop()}
       </AppBar>
     </header>
