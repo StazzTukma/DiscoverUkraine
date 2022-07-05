@@ -7,7 +7,7 @@ export const cities = [
         description: 'Click on the city marker on the map to display the city',
     },
     {
-        name: "Luts`k",
+        name: "Luts'k",
         imgURL: "https://volyninfa.com.ua/wp-content/uploads/2021/01/picture2_luck-jaki-cikavi-_338774_p0.jpg",
         description: "Lutsk is a city on the Styr River in northwestern Ukraine. It is the administrative center of the Volyn Oblast (province) and the administrative center of the surrounding Lutsk Raion (district) within the oblast, although it is not a part of the raion. Lutsk has the status of a city of oblast significance, equivalent to that of a district, and a population of 217,197 (2021 est.) It is a historical, political, cultural and religious center of Volyn.",
     },
@@ -42,7 +42,7 @@ export const cities = [
         description: "Lviv is a city that usually asociated with cultural centre of Ukraine. There you can find a lot of delicious restorants with intresting culture. Also there you can visit beautiful castles that have big plot, and looks very unusual in some cases it can be even scary."
     },
     {
-        name: "Chercassy",
+        name: "Cherkasy",
         imgURL: "https://scontent.fkbp1-1.fna.fbcdn.net/v/t31.18172-8/20746320_905766626259581_117724786910493861_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=YThQ6S117FIAX_JaVc2&_nc_ht=scontent.fkbp1-1.fna&oh=00_AT9ZCCrW65QhJCzyEnU5TXXmjMohGxpF8o-D78BWA7G6WQ&oe=62E8C2F0",
         description: "Chercassy is city where you can find peace. This city always was on of the quiest cities in Ukraine. Also almost all city situated near water, so if u want to have a break near the beach you can rest there and look at beautiful river Dnipro"
     },
@@ -52,22 +52,22 @@ export const cities = [
         description: "Dnipro is one of the biggest cities in Ukraine. This is a city of contrasts that hides many secrets and mysteries. This is the space capital of the former Soviet Union, where Zenit missiles were produced. It is home to Europe's longest embankment of 23 km and the largest Jewish Menorah center. The Dnipro metro is the shortest in Europe, with a length of only 7.8 km. And right there is the longest building in the country - the Dnipro like Chinese wall with a length of 800 m. It has 32 entrances and as many as 3 trolleybus stops"
     },
     {
-        name: "Sevastopil",
+        name: "Sevastopol'",
         imgURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/%D0%9F%D0%B0%D0%BC%27%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%B0%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%BC_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8F%D0%BC_%D0%B8_%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0_%D0%BC.%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D1%96%D0%BB%D1%8C.jpg/1280px-%D0%9F%D0%B0%D0%BC%27%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%B0%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%BC_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8F%D0%BC_%D0%B8_%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%B0_%D0%BC.%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D1%96%D0%BB%D1%8C.jpg",
         description: "The city of Sevastopol is located in the southwestern part of Crimea, on the coast of the Black Sea. This city is of national importance as a major recreational, industrial, scientific-technical and cultural-historical center of Ukraine. Sevastopol is the largest sea trade and fishing port that does not freeze in winter. The city is approximately equidistant at a distance of 60-70 km from Simferopol, Yevpatoria and Yalta"
     },
     {
-        name: "Luhansk",
+        name: "Luhans'k",
         imgURL: "https://ua-travels.in.ua/wp-content/uploads/2016/12/%D0%AD%D1%81%D1%82%D0%B0%D0%BA%D0%B0%D0%B4%D0%B0-752x440.jpg",
         description: "Luhansk is not only a beautiful city with many parks, squares and cultural monuments, but also one of the largest industrial cities of Ukraine. For example, the Luhansk Diesel Locomotive Plant supplied diesel locomotives to the entire former Soviet Union and is known in many countries abroad. Luhansk is also famous for its universities and institutes — VUU, LGMU. The KVK team of our LSH has repeatedly won and became famous in all CIS countries. Luhansk is also the homeland of many famous people."
     },
     {
-        name: "Donetsk",
+        name: "Donets'k",
         imgURL: "https://shakhtar.com/-/media/fcsd/club/heading-images/placeholder-club-honours.jpg",
         description: "Before the beginning of the Russian aggression in Donbas, Donetsk was a large industrial and financial center of Ukraine, the mining capital of Ukraine, the center of the most economically developed region of Ukraine. It was a developed metropolis in which high industrial and scientific potential, highly qualified workers and specialists, developed infrastructure and production base were concentrated. The economy of the city consisted of 200 industrial enterprises with a production volume of more than UAH 50 billion and more than 20,000 small and medium-sized enterprises, which employed about 180,000 Donetsk residents."
     },
     {
-        name: "Odessa",
+        name: "Odesa",
         imgURL: "https://all.accor.com/magazine/imagerie/kartinka-1-9438.jpg", 
         description: "Odessa is a port city on the northwestern coast of the Black Sea. It is the third largest city in Ukraine after Kyiv and Kharkiv, the main industrial, cultural, transport, scientific and resort center of the Northern Black Sea region.Conveniently located geographically, Odesa quickly turned from a small settlement into a trade, industrial and scientific center of European importance. During the First World War and the Russian Civil War, the city experienced devastation and chaos, and during the Second World War it was partially destroyed. Today, the city continues to develop, now as a large industrial and resort center of Ukraine. "
     },
@@ -77,27 +77,27 @@ export const cities = [
         description: "Kharkiv is a majestic and glorious city spread out in the east of Ukraine. It is the second most populous city in Ukraine and it has something to surprise guests. Powerful, bright, picturesque.It is not for nothing that Kharkiv once had the honor of being the capital of Ukraine. And although not so long, he left his mark in the history of our country. But Soviet times have passed and the capital has been moved, but the city, as a powerful industrial center, continues to function and enriches the country. Kharkiv is also a center of scientific and student self-government."
     },
     {
-        name: "Mariupol",
-        imgURL: "https://nikopolnews.net/wp-content/uploads/2022/03/1-6.jpg",
-        description: "Mariupol is a city on the coast of the Sea of Azov, which combines the industrial power of our country, a multinational flavor and a vibrant cultural life. This year's status as Great Cultural Capital gives us the opportunity to spend almost every weekend brightly"
+        name: "Hmelnitskiy",
+        imgURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_%D0%A5%D0%9E%D0%A5%D0%9C_03.jpg/550px-%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_%D0%A5%D0%9E%D0%A5%D0%9C_03.jpg",
+        description: "On March 15, 1941, the city became the center of the Kamianets-Podilskyi region; January 16, 1954 — renamed to Khmelnytskyi in honor of Bohdan Khmelnytskyi, the center of the Khmelnytskyi region. The area of ​​the city increases significantly, especially after the annexation of the suburban villages of Zareche and Grechany. Several plants of all-Union importance are being established - transformer substations, Traktorodetal, radio engineering, thermoplastic machines, Kation, industrial construction, food and light industry enterprises are becoming operational. In particular, the plant of transformer substations becomes the leader in the USSR in the production of transformers for railway transport, the Kation plant is one of the largest producers of capacitors in the country, and the State Enterprise Novator is the only producer of special military aviation equipment in the USSR. The emergence of such enterprises turned the city of Khmelnytskyi into a large industrial center of Ukraine. The population grew significantly, the first university was founded - the Institute of Technology (now Khmelnytskyi National University), the first trolleybus lines were laid, and new neighborhoods were built. In addition, the city becomes an important military-strategic center not only of the region, but of the entire country. During the Cold War, in 1956, the 17th Guards Motorized Rifle Division arrived at the regional center for a permanent deployment, and in 1961-1964, units of the 19th Division from the 43rd Missile Army of the Soviet Army of the Russian Soviet Socialist Republic arrived. It is from this time that combat positions of Intercontinental Ballistic Missiles are deployed near Khmelnytskyi and on the territory of the region[14]. A significant event that adds to the military history of the city was the founding of the Khmelnytskyi Higher Artillery Command School in 1970, on the basis of which in the 1990s the only National Academy of the State Border Service of Ukraine named after Bohdan Khmelnytskyi was established. After the end of the Cold War, all nuclear missiles in the country, in particular in the Khmelnytskyi region, were eliminated under the Nanna-Lugar Program.",
     },
     {
-        name: "Ushgorod",
+        name: "Uzhhorod",
         imgURL: "https://cdn4.suspilne.media/images/291d6825e85de6d5.jpg",
         description: "Uzhgorod is a city on the Uzh River in the Zakarpattia region of Ukraine, the center of the Uzhgorod urban community and the Uzhgorod district. Located 811 km from Kyiv, on the border with Slovakia. The heart of Uzhgorod is its castle, many tourists are also attracted by the church, synagogue and bishop's residence. In 1646, under the auspices of the Vatican, the Uzhgorod Union was proclaimed and the Greek Catholic Church was formed in Transcarpathia."
     },
     {
-        name: "Kropuvnutskiy",
+        name: "Kropyvnytskyi",
         imgURL: "http://ukrainaincognita.com/wp-content/uploads/files/kirov_ped2.jpg",
         description: "Kropuvnickiy administrative center of Kirovohrad region and Kropyvnytskyi district; an industrial and cultural center in the center of the country; highway junction, railway station, airport. Kropyvnytskyi lies within the borders of the Dnieper Highlands, on the banks of the Ingul River, where smaller rivers — Sugoklia and Biyanka — flow into it."
     },
     {
-        name: "Zaporiszha",
+        name: "Zaporizhzhya",
         imgURL: "https://etnoxata.com.ua/image/cache/catalog/image/catalog/stat3/06_2016/22_06_16/z/00.webp",
         description: "It is one of the largest administrative, industrial and cultural centers of southern Ukraine with developed mechanical engineering, ferrous and non-ferrous metallurgy, chemical and construction industries, a river port and an important transit railway hub. According to the Unified District Planning Scheme of Ukraine, Zaporizhzhia occupies an important place in the regional settlement system and performs the functions of regional, international and district centers, each of which has its own inter-village service area"
     },
     {
-        name: "Mukolaiv",
+        name: "Mykolaiv",
         imgURL: "https://m.kontrakty.ua/images/stories/nikolaev24.com.ua.jpg",
         description: "On the steppe expanses of southern Ukraine, where the Ingul and Southern Bug rivers merge, the city of Mykolaiv spread out. The city is overturned across Ingul, from the embankment you can admire a beautiful panorama and a view of the port. Sea vessels enter here, since Mykolayiv served as the gateway to the Black Sea for a long time, and the fame of the city of ships, sailors and brides was established behind it."
     },
@@ -107,22 +107,22 @@ export const cities = [
         description: "Kherson is a city in the south of Ukraine, the administrative center of the Kherson region. It is located on the right high bank of the Dnieper. The population as of January 1, 2022 is 279,131 people. An important economic center of southern Ukraine. A significant railway junction (on the Mykolaiv-Snigurivka-Dzhankoy line), sea trade port, river port. Kherson has a satellite city of Oleshka. Since July 17, 2020, it has been the administrative center of the Kherson district."
     },
     {
-        name: "Vinnuca",
+        name: "Vinnytsia",
         imgURL: "https://tamtour.com.ua/local/image/440/009/ua241.jpg",
         description: "Vinnytsia is a wonderful city in Central Ukraine, which is famous not only for its rich history, but also for the many awards it has been awarded with. Several times Vinnytsia was recognized as the most comfortable city in Ukraine, many call Vinnytsia the city of fountains. Also Vinnica has really big cool city of dance of fontains"
     },
     {
-        name: "Ternopil",
+        name: "Ternopil'",
         imgURL: "https://ternopilcity.gov.ua/upload/DJI-0006-2.jpg",
         description: "Of the interesting details, it was in Ternopil that the first Esperanto textbook in Ukraine was published. It was in Ternopil that the first Singing Field in Ukraine appeared. Nearby is the Optimistic Cave - the longest cave on the mainland. About a hundred castles have survived in Ukraine, and 34 of them are in the Ternopil region."
     },
     {
-        name: "Chernivci",
+        name: "Chernivtsi",
         imgURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/%D0%90%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%B8%D0%B9_%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97_%D0%BF%D0%BB%D0%BE%D1%89%D1%96.Jpg/800px-%D0%90%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%B8%D0%B9_%D0%B0%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C_%D0%A2%D0%B5%D0%B0%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97_%D0%BF%D0%BB%D0%BE%D1%89%D1%96.Jpg",
         description: "The people of Chernivtsi started from a fortress built by warriors in the valley of the Prut River on the southwestern edge of the Principality of Galicia in the second half of the 12th century. The name Chernivtsi comes from the Old Slavic word chern, a black garden, the defensive walls of which were made of earth and oak and were black in color. This is written by the ACC news agency. The first reliable mention of Chernivtsi dates back to the charter of the Moldavian master Oleksandr Dobry, issued to Lviv merchants on October 8, 1408."
     },
     {
-        name: "Ivano-Frankivsk",
+        name: "Ivano-Frankivs'k",
         imgURL: "http://synod.ugcc.ua/pub/images/8818529044ee3ff1.jpg",
         description: "Ivano-Frankivsk is a very small and compact city, which seems very tiny from a bird's eye view. But this does not mean at all that he has nothing to surprise guests and travelers. In fact, to visit all the interesting neighborhoods and learn all the secrets of the city, one vacation is not enough. Ivano-Frankivsk has a unique monument that has no analogues in Europe. This is a monument to the egg."
     },

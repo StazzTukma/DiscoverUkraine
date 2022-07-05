@@ -188,25 +188,25 @@ const mapGen = (
                 <Marker index={4} top={160} left={34} />
                 <Marker index={5} top={84} left={38.75} />
                 <Marker index={6} top={116} left={46.25} />
-                <Marker index={7} top={205} left={48.75} />
-                <Marker index={8} top={212} left={58.5} />
-                <Marker index={9} top={230} left={65.75} />
-                <Marker index={10} top={307} left={61.75} />
-                <Marker index={11} top={360} left={55.25} />
-                <Marker index={12} top={315} left={47.75} />
-                <Marker index={13} top={417} left={47.5} />
-                <Marker index={14} top={512} left={47.75} />
-                <Marker index={15} top={305} left={41.25} />
-                <Marker index={16} top={385} left={40.5} />
-                <Marker index={17} top={400} left={33.25} />
-                <Marker index={18} top={238} left={37.25} />
-                <Marker index={19} top={255} left={28.25} />
-                <Marker index={20} top={210} left={21.5} />
-                <Marker index={21} top={190} left={15.5} />
-                <Marker index={22} top={180} left={7.75} />
-                <Marker index={23} top={282} left={4.25} />
+                <Marker index={25} top={205} left={48.75} />
+                <Marker index={14} top={212} left={58.5} />
+                <Marker index={11} top={230} left={65.75} />
+                <Marker index={12} top={307} left={61.75} />
+                <Marker index={18} top={360} left={55.25} />
+                <Marker index={9} top={315} left={47.75} />
+                <Marker index={20} top={417} left={47.5} />
+                <Marker index={10} top={512} left={47.75} />
+                <Marker index={17} top={305} left={41.25} />
+                <Marker index={19} top={385} left={40.5} />
+                <Marker index={13} top={400} left={33.25} />
+                <Marker index={8} top={238} left={37.25} />
+                <Marker index={21} top={255} left={28.25} />
+                <Marker index={15} top={210} left={21.5} />
+                <Marker index={22} top={190} left={15.5} />
+                <Marker index={7} top={180} left={7.75} />
+                <Marker index={16} top={282} left={4.25} />
                 <Marker index={24} top={253} left={9.75} />
-                <Marker index={25} top={295} left={14.75} />
+                <Marker index={23} top={295} left={14.75} />
               </div>
                 <div className="menuColumn">
                 <input type="text" id="titleName" disabled placeholder="None" className="titleName" onChange={titleChange} value={title}></input>
