@@ -32,6 +32,8 @@ try {
 
     if(existingUser) return res.status(400).json({ message: "User already exists!"});
 
+    if(password.length < 8 || password.length > 15) return res.status(400).json({ message: "Passwords should contian 8 to 15 symbols"});
+
     if(password !== confirmPassword) return res.status(400).json({ message: "Passwords don't match"});
 
     const hashedPassword = await bcrypt.hash(password, 12);

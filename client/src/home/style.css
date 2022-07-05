@@ -79,16 +79,6 @@
     border: none;
   }
 
-  .city {
-    height: 6%;
-    width: 40%;
-    cursor: pointer;
-    font-size: 15px;
-    background: black;
-    border: 1px solid black;
-    color: #fff;
-    margin: 0 10px 10px 10px;
-}
 }
 
 @media screen and (min-width: 960px) {

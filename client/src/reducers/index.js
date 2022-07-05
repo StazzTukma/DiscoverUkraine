@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
 
-import cards from './cards';
+import login from './login';
 
-export default combineReducers ({ cards });
+export default combineReducers ({ login });
