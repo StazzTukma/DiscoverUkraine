@@ -4,6 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 
 import cardsRoutes from './routes/cards.js';
+import userRoutes from './routes/users.js';
 
 const app = express();
 
@@ -12,6 +13,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
 app.use('/cards', cardsRoutes);
+app.use('/user', userRoutes);
 
 const CONNECTION_URL = 'mongodb+srv://StazzTukma:Nngs1927@atlascluster.vyksd.mongodb.net/?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;

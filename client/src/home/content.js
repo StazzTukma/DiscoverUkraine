@@ -9,7 +9,7 @@ const mapGen = (
     <Box
             component="img"
             height='100%'
-            width='100%'
+            width='80%'
             alt="Map"
             src={Map}
         />

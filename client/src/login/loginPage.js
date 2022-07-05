@@ -1,99 +1,73 @@
-import React  from 'react';
-import { useState } from "react";
-import './style.css';
-import { makeStyles } from '@material-ui/core/styles';
+import React, { useState } from "react";
+import { useDispatch } from 'react-redux';
+import { Button, Paper, Grid, Typography, Container } from '@material-ui/core';
+import { useNavigate } from 'react-router-dom';
 
-const useStyles = makeStyles(theme => ({
-    form: {
-      width: '50%',
-      padding: 10,
-      background: 'rgba(0, 0, 0, 0.3)',
-      borderRadius: 30,
-        "@media (max-width: 768px)": {
-          marginTop: 200,
-        },
-        "@media (min-width: 768px)": {
-          marginTop: 203.5,
-        },
-      },
-      
-}));
+import useStyles from './style.js';
+import Input from "./Input.js";
+import { signin, signup } from '../actions/login';
 
-function Login() {
+const initialState = { firstName: '', lastName: '', email: '', password: '', confirmPassword: '' };
 
-const classes = useStyles();
-const [errorMessages, setErrorMessages] = useState({});
-const [isSubmitted, setIsSubmitted] = useState(false);
+const LogIn = () => {
+  const [formData, setFormData] = useState(initialState);
+  const [isSignup, setIsSignup] = useState(false);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const classes = useStyles();
 
-const database = [
-    {
-      username: "admin",
-      password: "password"
-    },
-    {
-      username: "user",
-      password: "pass"
-    }
-  ];
-  
-const errors = {
-    uname: "invalid username",
-    pass: "invalid password"
+  const [showPassword, setShowPassword] = useState(false);
+  const handleShowPassword = () => setShowPassword(!showPassword);
+
+  const switchMode = () => {
+      setFormData(initialState);
+      setIsSignup((prevIsSignup) => !prevIsSignup);
+      setShowPassword(false);
   };
 
-const handleSubmit = (event) => {
-    event.preventDefault();
-  
-    var { uname, pass } = document.forms[0];
-  
-    const userData = database.find((user) => user.username === uname.value);
-  
-    if (userData) {
-      if (userData.password !== pass.value) {
-        setErrorMessages({ name: "pass", message: errors.pass });
-      } else {
-        setIsSubmitted(true);
-      }
-    } else {
-      setErrorMessages({ name: "uname", message: errors.uname });
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if(isSignup){
+      dispatch(signup(formData, navigate))
+    }else{
+      dispatch(signin(formData, navigate))
     }
   };
 
-  const renderErrorMessage = (name) =>
-  name === errorMessages.name && (
-    <div className="error">{errorMessages.message}</div>
+  const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
+
+  return(
+    <Container component="main" maxWidth="xs">
+      <Paper className={classes.paper} elevation={3}>
+        <Typography variant="h5">{ isSignup ? 'Sign up' : 'Sign in' }</Typography>
+        <form className={classes.form} onSubmit={handleSubmit}>
+          <Grid container spacing={2}>
+            {
+              isSignup && (
+                <>
+                <Input name="firstName" label="First Name" handleChange={handleChange} half type="" />
+                <Input name="lastName" label="Last Name" handleChange={handleChange} half type="" />
+                </>
+            )}
+            <Input name="email" label="Email Address" handleChange={handleChange} type="email" />
+            <Input name="password" label="Password" handleChange={handleChange} type={showPassword ? '' : 'password'} handleShowPassword={handleShowPassword} />
+            { isSignup && <Input name="confirmPassword" label="Repeat Password" handleChange={handleChange} type="password" /> }
+          </Grid>
+          
+          <Button type="submit" fullWidth variant="contained" color="primary" className={classes.submit}>
+            { isSignup ? 'Sign Up' : 'Sign In' }
+          </Button>
+          <Grid container justify="flex-end">
+            <Grid item>
+              <Button onClick={switchMode}>
+                { isSignup ? 'Already have an account? Sign in' : "Don't have an account? Sign Up" }
+              </Button>
+            </Grid>
+          </Grid>
+        </form>
+      </Paper>  
+    </Container>
   );
+};
 
-const renderForm = (
-    <div className="form">
-      <form onSubmit={handleSubmit}>
-      <div className="login-form">
-        </div>
-        <div className="input-container">
-          <label>Username </label>
-          <input type="text" name="uname" required />
-          {renderErrorMessage("uname")}
-        </div>
-        <div className="input-container">
-          <label>Password </label>
-          <input type="password" name="pass" required />
-          {renderErrorMessage("pass")}
-        </div>
-        <div className="button-container">
-          <input type="submit" />
-        </div>
-      </form>
-    </div>
- );
-
-    return (
-        <div className="app">
-          <div className={classes.form}>
-            <div className="title"><b>Log In</b></div>
-            {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
-          </div>
-        </div>
-      );
-    }
-
-export default Login;
+export default LogIn;
