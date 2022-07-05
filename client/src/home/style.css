@@ -30,9 +30,9 @@
   
   .image {
     width: 90%;
-    height: 25%;
+    height: 35%;
     margin-bottom: 5px;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 50px;
 }
 
@@ -122,16 +122,30 @@
 }
 
   .titleName {
-    font-size: 50px;
+    font-family: "Roboto";
+    font-size: 55px;
     height: 10%;
     margin-bottom: 2%;
     margin-top: 0;
     text-align: center;
-    color: white;
+    color: whitesmoke;
     width: 90%;
-    margin: 10px 10px 0 10px;
+    margin: 10px 10px 5px 10px;
     background: none;
     border: none;
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
   }
 
   .mapColumn {
@@ -160,13 +174,15 @@
 
   .image {
     width: 90%;
-    height: 25%;
+    height: 35%;
     margin-bottom: 3%;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 50px;
 }
 
+
 .description {
+  font-family: "Roboto";
   font-size: 24px;
   height: 50%;
   margin-bottom: 2%;

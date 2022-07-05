@@ -1,11 +1,11 @@
-import React, {Component}  from 'react';
+import React  from 'react';
 import { useState, useEffect } from "react";
 import Popup from './Popup';  
 import './style.css';
 import Map from "../images/map.png"
 import { Box} from "@material-ui/core";
 import { cities, search} from '../LocalDB';
-import { makeStyles } from '@material-ui/core/styles';
+import arrow from '../images/arrow.png'
 import { generatePath } from 'react-router-dom';
 
 const mapGen = (
@@ -127,10 +127,10 @@ const mapGen = (
                 marginLeft: windowSize.innerWidth*0.1,
                 top: top/2-10,
                 left: left*1.4*0.8+'%',
-                height: 35,
-                width: 35,
-                borderRadius: 30,
-                backgroundColor: 'red',
+                height: 45,
+                width: 45,
+                backgroundColor: 'transparent',
+                borderColor: 'transparent',
                 opacity: 0.5,
                 position: 'absolute',};
               }
@@ -141,15 +141,15 @@ const mapGen = (
               top: top,
               left: left*0.8+'%',
               marginLeft: windowSize.innerWidth*0.075,
-              height: 35,
-              width: 35,
-              borderRadius: 30,
-              backgroundColor: 'red',
+              height: 45,
+              width: 45,
+              backgroundColor: 'transparent',
+              borderColor: 'transparent',
               opacity: 0.5,
               position: 'absolute',};
           }
 
-          if(windowSize.innerWidth == 768){
+          if(windowSize.innerWidth === 768){
             style = {
               marginTop: 160,
               marginLeft: windowSize.innerWidth*0.09,
@@ -174,7 +174,7 @@ const mapGen = (
           <div className="main">
               <div className="head">
                   <input type="text" disabled placeholder="City1" id="city1" onChange={city1Change} value={city1}></input>
-                  <label>↔️</label>
+                  <img src={arrow} length="5%" width="3%"></img>
                   <input type="text" disabled placeholder="City2" id='city2' onChange={city2Change} value={city2}></input>
                   <input type="submit" value="Find a path" onClick={togglePopup}></input>
               </div>
