@@ -16,7 +16,7 @@
 
   .description {
     font-size: 24px;
-    height: 50%;
+    height: 40%;
     width: 100%;
     margin-top: 0;
     text-align: center;
@@ -100,8 +100,10 @@
     font-size: 16px;
     letter-spacing: 2px;
     text-decoration: none;
+    width: 40%;
     text-transform: uppercase;
     color: #100010;
+    background-color: whitesmoke;
     cursor: pointer;
     border: 3px solid;
     padding: 0.25em 0.5em;
@@ -174,7 +176,7 @@
 .description {
   font-family: "Roboto";
   font-size: 24px;
-  height: 50%;
+  height: 40%;
   margin-bottom: 2%;
   margin-top: 0;
   text-align: center;
