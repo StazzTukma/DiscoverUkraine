@@ -62,16 +62,16 @@ export const cities = [
         description: "lorem"
     },
     {
-        name: "lorem",
-        imgURL: "lorem",
+        name: '',
+        imgURL: null,
         description: "lorem"
     },
 ]
 
-export const search = (id, inputArray) => {
+export const search = (name, inputArray) => {
     for (let i=0; i < inputArray.length; i++) {
-        if (inputArray[i].id === id) {
+        if (inputArray[i].name == name) {
             return inputArray[i];
         }
-    }
   }
+}
