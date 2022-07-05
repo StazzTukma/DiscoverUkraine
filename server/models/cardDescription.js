@@ -6,8 +6,8 @@ const cardSchema = mongoose.Schema({
     description: String,
     url_1: String,
     url_2: String
-});
+}, {collection: "test"});
 
-const cardDescription = mongoose.model('cardDescription', cardSchema);
+const Card = mongoose.model("Card", cardSchema);
 
-export default cardDescription;
+export default Card;

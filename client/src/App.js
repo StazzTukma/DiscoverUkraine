@@ -18,7 +18,7 @@ function App() {
   }, [dispatch]);
 
   return (
-    <div className="App">
+    <div className="App" style={ {width:'100%',}}>
       <Header/>
       <Main/>
       <Footer/>

@@ -5,6 +5,8 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles(theme => ({
     root: {
       display: 'flex',
+      width: '100%',
+      minWidth: '100%',
       "@media (max-width: 768px)": {
         marginTop: 74,
       },
