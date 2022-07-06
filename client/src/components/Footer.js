@@ -19,9 +19,8 @@ return (
 		<Column>
 			<Heading>Useful Links</Heading>
 			<FooterLink href="https://ukrainer.net/">Ukrainer</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+			<FooterLink href="https://www.facebook.com/UkraineNOWOfficial">Ukraine NOW</FooterLink>
+			<FooterLink href="https://traveltoukraine.org/">Travel Ukraine</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
