@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
 
   img: {
     width: '100%',
-    height: 550,
+    height: 450,
   },
 
   title_text: {
@@ -126,21 +126,26 @@ function MainContent() {
         </div>
         <div className={classes.content}>
           <Typography paragraph className={classes.par}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus,
-            nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
-            felis nec erat
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus,
-            nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
-            felis nec erat
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus,
-            nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
-            felis nec erat
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus,
-            nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
-            felis nec erat
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus,
-            nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
-            felis nec erat
+              We always wanted to create usefull aplication for citizens of Ukraine
+              to transport easily throw a lot of different cities and have a great 
+              time in all of this routes. So we decided to help this people and make 
+              something that will be usefull for everyone.
+
+              We partner with cities, transportation authorities, broadcasters, businesses,
+              and first responders to ensure our community-driven data helps as many people
+              as possible, saving valuable minutes and even lives each and every day
+
+              If u want to remember your routes you should register throw button "Login in"
+
+              We hope that community will support our desire in improving navigation
+              throw heavely-passed zones, and we will have possibilities to make our 
+              world better.
+
+              We have a lot of plans for future, for example we want to improve our system
+              of navigation in the small cities, also we will add API that will collaborate
+              with Google and disolve errors in navigation in small towns. 
+
+              We will do our best to make our life easier and comfortable
           </Typography>
         </div>
         <Typography variant='h2' className={classes.title_text}><b>Our team</b></Typography>
@@ -151,7 +156,7 @@ function MainContent() {
                 <div className={classes.container}>
                   <Typography variant='h4' className={classes.name}><b>Yehor</b></Typography>
                   <Typography paragraph className={classes.titleName}></Typography>
-                  <Typography paragraph className={classes.aboutTeam}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Typography>
+                  <Typography paragraph className={classes.aboutTeam}>Frontend Developer</Typography>
                   <Typography paragraph className={classes.email}>yehor.bilokin@ukma.edu.ua</Typography>
                   <Typography paragraph><button className={classes.button}><a href='mailto:yehor.bilokin@ukma.edu.ua'>Contact</a></button></Typography>
                 </div>
@@ -159,13 +164,13 @@ function MainContent() {
           </div>
           <div className={classes.column}>
             <div className={classes.card}>
-              <img src='https://anews.com/upload/post/2020/11/01/103171479/gallery/tn/280347622.jpg' className={classes.img}></img>
+              <img src='https://scontent.fkbp1-1.fna.fbcdn.net/v/t1.6435-9/204111379_2972795136341240_7577623586151942993_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=PL9eHlFDV6kAX_ydOMg&_nc_ht=scontent.fkbp1-1.fna&oh=00_AT_sbQ3YBMPZfQEf6leJt0qX0YVIb6sHzsvTDXjH6vPvnQ&oe=62EA1136' className={classes.img}></img>
                 <div className={classes.container}>
                   <Typography variant='h4' className={classes.name}><b>Andrew</b></Typography>
                   <Typography paragraph className={classes.titleName}></Typography>
-                  <Typography paragraph className={classes.aboutTeam}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Typography>
-                  <Typography paragraph className={classes.email}>example@example.com</Typography>
-                  <Typography paragraph><button className={classes.button}>Contact</button></Typography>
+                  <Typography paragraph className={classes.aboutTeam}>Content creator. Tester</Typography>
+                  <Typography paragraph className={classes.email}>andrii.ivanov@ukma.edu.ua</Typography>
+                  <Typography paragraph><button className={classes.button}><a href='mailto:andrii.ivanov@ukma.edu.ua'>Contact</a></button></Typography>
                 </div>
             </div>
           </div>
@@ -175,9 +180,9 @@ function MainContent() {
                 <div className={classes.container}>
                   <Typography variant='h4' className={classes.name}><b>Stas</b></Typography>
                   <Typography paragraph className={classes.titleName}></Typography>
-                  <Typography paragraph className={classes.aboutTeam}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Typography>
-                  <Typography paragraph className={classes.email}>example@example.com</Typography>
-                  <Typography paragraph><button className={classes.button}>Contact</button></Typography>
+                  <Typography paragraph className={classes.aboutTeam}>Backend Developer.</Typography>
+                  <Typography paragraph className={classes.email}>stanislav.nazarenko@ukma.edu.ua</Typography>
+                  <Typography paragraph><button className={classes.button}><a href='mailto:stanislav.nazarenko@ukma.edu.ua'>Contact</a></button></Typography>
                 </div>
             </div>
           </div>

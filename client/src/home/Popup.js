@@ -12,7 +12,6 @@ return (
         <img src={this.props.city2img}></img>
     </div>
     <a href={this.props.path1value} className="path">Recomended way</a>
-    <a href={this.props.path1value} className="path">Recomended way</a>
     <button type='button' onClick={this.props.closePopup}>Close Infoblock</button>  
 </div>  
 </div>  
