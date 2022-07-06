@@ -7,7 +7,7 @@ export const cities = [
         description: 'Click on the city marker on the map to display the city',
     },
     {
-        name: "Luts'k",
+        name: "Lutsk",
         imgURL: "https://volyninfa.com.ua/wp-content/uploads/2021/01/picture2_luck-jaki-cikavi-_338774_p0.jpg",
         description: "Lutsk is a city on the Styr River in northwestern Ukraine. It is the administrative center of the Volyn Oblast (province) and the administrative center of the surrounding Lutsk Raion (district) within the oblast, although it is not a part of the raion. Lutsk has the status of a city of oblast significance, equivalent to that of a district, and a population of 217,197 (2021 est.) It is a historical, political, cultural and religious center of Volyn.",
     },
@@ -72,7 +72,7 @@ export const cities = [
         description: "Odessa is a port city on the northwestern coast of the Black Sea. It is the third largest city in Ukraine after Kyiv and Kharkiv, the main industrial, cultural, transport, scientific and resort center of the Northern Black Sea region.Conveniently located geographically, Odesa quickly turned from a small settlement into a trade, industrial and scientific center of European importance. During the First World War and the Russian Civil War, the city experienced devastation and chaos, and during the Second World War it was partially destroyed. Today, the city continues to develop, now as a large industrial and resort center of Ukraine. "
     },
     {
-        name: "Harkiv",
+        name: "Kharkiv",
         imgURL: "https://media.istockphoto.com/photos/kharkiv-landscape-view-picture-id623984152?k=20&m=623984152&s=612x612&w=0&h=DZxppfU5XmifcyQVaHqditPdxN0sV8GbaiQquuCCRsc=",
         description: "Kharkiv is a majestic and glorious city spread out in the east of Ukraine. It is the second most populous city in Ukraine and it has something to surprise guests. Powerful, bright, picturesque.It is not for nothing that Kharkiv once had the honor of being the capital of Ukraine. And although not so long, he left his mark in the history of our country. But Soviet times have passed and the capital has been moved, but the city, as a powerful industrial center, continues to function and enriches the country. Kharkiv is also a center of scientific and student self-government."
     },
@@ -92,7 +92,7 @@ export const cities = [
         description: "Kropuvnickiy administrative center of Kirovohrad region and Kropyvnytskyi district; an industrial and cultural center in the center of the country; highway junction, railway station, airport. Kropyvnytskyi lies within the borders of the Dnieper Highlands, on the banks of the Ingul River, where smaller rivers — Sugoklia and Biyanka — flow into it."
     },
     {
-        name: "Zaporizhzhya",
+        name: "Zaporizhzhia",
         imgURL: "https://etnoxata.com.ua/image/cache/catalog/image/catalog/stat3/06_2016/22_06_16/z/00.webp",
         description: "It is one of the largest administrative, industrial and cultural centers of southern Ukraine with developed mechanical engineering, ferrous and non-ferrous metallurgy, chemical and construction industries, a river port and an important transit railway hub. According to the Unified District Planning Scheme of Ukraine, Zaporizhzhia occupies an important place in the regional settlement system and performs the functions of regional, international and district centers, each of which has its own inter-village service area"
     },
@@ -102,7 +102,7 @@ export const cities = [
         description: "On the steppe expanses of southern Ukraine, where the Ingul and Southern Bug rivers merge, the city of Mykolaiv spread out. The city is overturned across Ingul, from the embankment you can admire a beautiful panorama and a view of the port. Sea vessels enter here, since Mykolayiv served as the gateway to the Black Sea for a long time, and the fame of the city of ships, sailors and brides was established behind it."
     },
     {
-        name: "Herson",
+        name: "Kherson",
         imgURL: "https://static.dw.com/image/61138696_401.jpg",
         description: "Kherson is a city in the south of Ukraine, the administrative center of the Kherson region. It is located on the right high bank of the Dnieper. The population as of January 1, 2022 is 279,131 people. An important economic center of southern Ukraine. A significant railway junction (on the Mykolaiv-Snigurivka-Dzhankoy line), sea trade port, river port. Kherson has a satellite city of Oleshka. Since July 17, 2020, it has been the administrative center of the Kherson district."
     },

@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
 import React  from 'react';
 import './style.css';
+import aboutUsPhoto_3 from '../images/aboutUsPhoto.jpg'
 
 const useStyles = makeStyles(theme => ({
   html: {
@@ -27,7 +28,7 @@ const useStyles = makeStyles(theme => ({
   },
 
   img: {
-    width: '100%',
+    width: '75%',
     height: 450,
   },
 
@@ -152,11 +153,11 @@ function MainContent() {
         <div className={classes.row}>
           <div className={classes.column}>
             <div className={classes.card}>
-              <img src='https://anews.com/upload/post/2020/11/01/103171479/gallery/tn/280347622.jpg' className={classes.img}></img>
+              <img src='' className={classes.img} alt="no photo yet!"></img>
                 <div className={classes.container}>
                   <Typography variant='h4' className={classes.name}><b>Yehor</b></Typography>
                   <Typography paragraph className={classes.titleName}></Typography>
-                  <Typography paragraph className={classes.aboutTeam}>Frontend Developer</Typography>
+                  <Typography paragraph className={classes.aboutTeam}>Frontend Developer.</Typography>
                   <Typography paragraph className={classes.email}>yehor.bilokin@ukma.edu.ua</Typography>
                   <Typography paragraph><button className={classes.button}><a href='mailto:yehor.bilokin@ukma.edu.ua'>Contact</a></button></Typography>
                 </div>
@@ -176,7 +177,7 @@ function MainContent() {
           </div>
           <div className={classes.column}>
             <div className={classes.card}>
-              <img src='https://anews.com/upload/post/2020/11/01/103171479/gallery/tn/280347622.jpg' className={classes.img}></img>
+              <img src={aboutUsPhoto_3} className={classes.img}></img>
                 <div className={classes.container}>
                   <Typography variant='h4' className={classes.name}><b>Stas</b></Typography>
                   <Typography paragraph className={classes.titleName}></Typography>
